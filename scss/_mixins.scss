@@ -1,0 +1,14 @@
+@mixin bg($color) {
+  padding: .5em;
+  text-align: center;
+  background-color: $color; 
+}
+
+@mixin icon($color) {
+  font-size: 15em;
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
+  color: $color;
+}
